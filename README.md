@@ -7,9 +7,9 @@ resources version update. use json to display output and write by php.
 
 版本信息配置在 version_config.php 中
 
-版本信息制作命令: php ./version_gen.php -v version_name
+版本信息制作命令: php ./version_gen.php -v version_name 执行完后会根据当前资源文件和前一次资源文件对比，制作当前版本资源更新情况。
 
-版本获取请使用格式 http://192.168.1.251:83/version_index.php?version=v1
+版本获取请使用格式 http://xxxxxxx.xxx/version_index.php?version=v1
 
 会根据参数给出的版本名，来返回当前需要，增加(new)，更新(update)，删除(del)哪些资源文件，以及资源文件的地址。
 
