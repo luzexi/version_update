@@ -16,3 +16,5 @@ resources version update. use json to display output and write by php.
 会根据参数给出的版本名，来返回当前需要，增加(new)，更新(update)，删除(del)哪些资源文件，以及资源文件的地址。
 
 返回信息格式为 : {"code":0,"data":{"version_prename":"","version_name":"v3","version_file":[{"file":"test1","operate":"new"},{"file":"test_dir\/test2","operate":"new"}]},"desc":"ok"}
+
+![github](./example.jpg "github")
